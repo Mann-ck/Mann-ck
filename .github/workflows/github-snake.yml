@@ -1,0 +1,38 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    # Runs at 12:00 UTC every day
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    name: Generate Snake Animation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake (dark + light)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Mann-ck
+          # Dark theme — pink/purple on dark background
+          outputs: |
+            dist/snake-dark.svg?color_snake=#ff6ec7&color_dots=#a020f0,#c850c0,#ff6ec7,#7010c0,#ff40a0
+            dist/snake-light.svg?color_snake=#c2185b&color_dots=#7b1fa2,#c2185b,#880e4f,#9c27b0,#e91e63&color_bg=#fdf0ff
+
+      - name: Push output to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: update contribution snake [skip ci]"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
