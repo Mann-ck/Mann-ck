@@ -5,9 +5,9 @@
 <!-- ============================================================ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="banner-static-test.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light-static-test.svg?v=1">
-  <img alt="Mann Checker — Backend &amp; AI Developer" src="banner-static-test.svg?v=1" width="100%"/>
+  <source media="(prefers-color-scheme: dark)"  srcset="banner-test-clip.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light-test-clip.svg?v=1">
+  <img alt="Mann Checker — Backend &amp; AI Developer" src="banner-test-clip.svg?v=1" width="100%"/>
 </picture>
 
 <br/>
