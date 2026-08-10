@@ -186,54 +186,12 @@
   
 </rect>
 
-<!-- ========== NAME: MANN CHECKER (letter by letter) ========== -->
-<g>
-  <text font-family="Georgia,'Times New Roman',serif" font-size="72" font-weight="700" fill="url(#nameGrad)" dominant-baseline="middle">
-    <!-- M -->
-    <tspan x="390" y="150" opacity="0">M</tspan>
-    <!-- a -->
-    <tspan opacity="0">a</tspan>
-    <!-- n -->
-    <tspan opacity="0">n</tspan>
-    <!-- n -->
-    <tspan opacity="0">n</tspan>
-    <!-- space -->
-    <tspan opacity="0"> </tspan>
-    <!-- C -->
-    <tspan opacity="0">C</tspan>
-    <!-- h -->
-    <tspan opacity="0">h</tspan>
-    <!-- e -->
-    <tspan opacity="0">e</tspan>
-    <!-- c -->
-    <tspan opacity="0">c</tspan>
-    <!-- k -->
-    <tspan opacity="0">k</tspan>
-    <!-- e -->
-    <tspan opacity="0">e</tspan>
-    <!-- r -->
-    <tspan opacity="0">r</tspan>
-  </text>
-</g>
+<!-- ========== NAME: MANN CHECKER ========== -->
+<text x="390" y="150" font-family="Georgia,'Times New Roman',serif" font-size="72" font-weight="700" fill="url(#nameGrad)" dominant-baseline="middle">Mann Checker</text>
 
-<!-- ========== ROLE CYCLING ========== -->
+<!-- ========== ROLE ========== -->
 <rect x="390" y="170" width="580" height="46" rx="6" fill="#1e0035" fill-opacity="0.5" stroke="#c850c0" stroke-width="0.8" stroke-opacity="0.5"/>
-<!-- Role 1 -->
-<text x="400" y="200" font-family="'Courier New',monospace" font-size="18" fill="#ff6ec7" dominant-baseline="middle" opacity="1">
-  ▶ Computer Science Graduate
-  
-</text>
-<!-- Role 2 -->
-<text x="400" y="200" font-family="'Courier New',monospace" font-size="18" fill="#c850c0" dominant-baseline="middle" opacity="1">
-  ▶ Backend Developer
-  
-</text>
-<!-- Role 3 -->
-<text x="400" y="200" font-family="'Courier New',monospace" font-size="18" fill="#a020f0" dominant-baseline="middle" opacity="1">
-  ▶ AI Developer
-  
-</text>
-
+<text x="400" y="200" font-family="'Courier New',monospace" font-size="18" fill="#ff6ec7" dominant-baseline="middle" opacity="1">▶ Computer Science Graduate | Backend &amp; AI Developer</text>
 
 <!-- ========== ABOUT ME SECTION ========== -->
 <rect x="390" y="228" width="580" height="120" rx="8" fill="url(#cardGrad)" stroke="#a020f0" stroke-width="1" stroke-opacity="0.5"/>
@@ -262,59 +220,32 @@
 <text x="390" y="444" font-family="'Courier New',monospace" font-size="11" fill="#c850c0" opacity="0.8">// Tech Stack</text>
 <!-- Row 1 pills -->
 <g font-family="'Courier New',monospace" font-size="11" font-weight="600">
-  <!-- Java -->
-  <rect x="390" y="452" width="58" height="26" rx="13" fill="url(#pillGrad1)" stroke="#ff6ec7" stroke-width="1">
-    
-  </rect>
-  <text x="419" y="469" fill="#ff6ec7" text-anchor="middle" dominant-baseline="middle" opacity="1">Java</text>
-  <!-- Spring Boot -->
-  <rect x="456" y="452" width="92" height="26" rx="13" fill="url(#pillGrad1)" stroke="#c850c0" stroke-width="1">
-    
-  </rect>
-  <text x="502" y="469" fill="#c850c0" text-anchor="middle" dominant-baseline="middle" opacity="1">Spring Boot</text>
-  <!-- Spring AI -->
-  <rect x="556" y="452" width="80" height="26" rx="13" fill="url(#pillGrad1)" stroke="#a020f0" stroke-width="1">
-    
-  </rect>
-  <text x="596" y="469" fill="#a020f0" text-anchor="middle" dominant-baseline="middle" opacity="1">Spring AI</text>
   <!-- Python -->
-  <rect x="644" y="452" width="68" height="26" rx="13" fill="url(#pillGrad1)" stroke="#ff6ec7" stroke-width="1">
-    
-  </rect>
-  <text x="678" y="469" fill="#ff6ec7" text-anchor="middle" dominant-baseline="middle" opacity="1">Python</text>
-  <!-- C++ -->
-  <rect x="720" y="452" width="52" height="26" rx="13" fill="url(#pillGrad1)" stroke="#c850c0" stroke-width="1">
-    
-  </rect>
-  <text x="746" y="469" fill="#c850c0" text-anchor="middle" dominant-baseline="middle" opacity="1">C++</text>
-  <!-- Row 2 -->
+  <rect x="390" y="452" width="58" height="26" rx="13" fill="url(#pillGrad1)" stroke="#ff6ec7" stroke-width="1"/>
+  <text x="419" y="469" fill="#ff6ec7" text-anchor="middle" dominant-baseline="middle" opacity="1">Python</text>
+  <!-- Node.js -->
+  <rect x="456" y="452" width="70" height="26" rx="13" fill="url(#pillGrad1)" stroke="#c850c0" stroke-width="1"/>
+  <text x="491" y="469" fill="#c850c0" text-anchor="middle" dominant-baseline="middle" opacity="1">Node.js</text>
   <!-- JavaScript -->
-  <rect x="390" y="486" width="90" height="26" rx="13" fill="url(#pillGrad1)" stroke="#a020f0" stroke-width="1">
-    
-  </rect>
-  <text x="435" y="503" fill="#a020f0" text-anchor="middle" dominant-baseline="middle" opacity="1">JavaScript</text>
-  <!-- React -->
-  <rect x="488" y="486" width="60" height="26" rx="13" fill="url(#pillGrad1)" stroke="#ff6ec7" stroke-width="1">
-    
-  </rect>
-  <text x="518" y="503" fill="#ff6ec7" text-anchor="middle" dominant-baseline="middle" opacity="1">React</text>
+  <rect x="534" y="452" width="90" height="26" rx="13" fill="url(#pillGrad1)" stroke="#a020f0" stroke-width="1"/>
+  <text x="579" y="469" fill="#a020f0" text-anchor="middle" dominant-baseline="middle" opacity="1">JavaScript</text>
   <!-- SQL -->
-  <rect x="556" y="486" width="48" height="26" rx="13" fill="url(#pillGrad1)" stroke="#c850c0" stroke-width="1">
-    
-  </rect>
-  <text x="580" y="503" fill="#c850c0" text-anchor="middle" dominant-baseline="middle" opacity="1">SQL</text>
-  <!-- MySQL -->
-  <rect x="612" y="486" width="60" height="26" rx="13" fill="url(#pillGrad1)" stroke="#a020f0" stroke-width="1">
-    
-  </rect>
-  <text x="642" y="503" fill="#a020f0" text-anchor="middle" dominant-baseline="middle" opacity="1">MySQL</text>
+  <rect x="632" y="452" width="50" height="26" rx="13" fill="url(#pillGrad1)" stroke="#ff6ec7" stroke-width="1"/>
+  <text x="657" y="469" fill="#ff6ec7" text-anchor="middle" dominant-baseline="middle" opacity="1">SQL</text>
+  <!-- Row 2 -->
   <!-- AI/ML -->
-  <rect x="680" y="486" width="58" height="26" rx="13" fill="url(#pillGrad1)" stroke="#ff6ec7" stroke-width="1">
-    
-  </rect>
-  <text x="709" y="503" fill="#ff6ec7" text-anchor="middle" dominant-baseline="middle" opacity="1">AI/ML</text>
+  <rect x="390" y="486" width="65" height="26" rx="13" fill="url(#pillGrad1)" stroke="#c850c0" stroke-width="1"/>
+  <text x="422" y="503" fill="#c850c0" text-anchor="middle" dominant-baseline="middle" opacity="1">AI/ML</text>
+  <!-- Gen AI -->
+  <rect x="463" y="486" width="70" height="26" rx="13" fill="url(#pillGrad1)" stroke="#a020f0" stroke-width="1"/>
+  <text x="498" y="503" fill="#a020f0" text-anchor="middle" dominant-baseline="middle" opacity="1">Gen AI</text>
+  <!-- Agentic AI -->
+  <rect x="541" y="486" width="90" height="26" rx="13" fill="url(#pillGrad1)" stroke="#ff6ec7" stroke-width="1"/>
+  <text x="586" y="503" fill="#ff6ec7" text-anchor="middle" dominant-baseline="middle" opacity="1">Agentic AI</text>
+  <!-- LLMs -->
+  <rect x="639" y="486" width="60" height="26" rx="13" fill="url(#pillGrad1)" stroke="#c850c0" stroke-width="1"/>
+  <text x="669" y="503" fill="#c850c0" text-anchor="middle" dominant-baseline="middle" opacity="1">LLMs</text>
 </g>
-
 
 <!-- ========== CODE EDITOR CARD (right side) ========== -->
 <rect x="990" y="28" width="268" height="310" rx="10" fill="#0d0820" stroke="#a020f0" stroke-width="1.2" stroke-opacity="0.7"/>
