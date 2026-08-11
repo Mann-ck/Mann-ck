@@ -29,13 +29,13 @@
   </linearGradient>
   <linearGradient id="nameGradL" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%" stop-color="#c2185b">
-      <animate attributeName="stop-color" values="#c2185b;#7b1fa2;#880e4f;#c2185b" dur="4s" repeatCount="indefinite"/>
+      
     </stop>
     <stop offset="50%" stop-color="#7b1fa2">
-      <animate attributeName="stop-color" values="#7b1fa2;#880e4f;#c2185b;#7b1fa2" dur="4s" repeatCount="indefinite"/>
+      
     </stop>
     <stop offset="100%" stop-color="#880e4f">
-      <animate attributeName="stop-color" values="#880e4f;#c2185b;#7b1fa2;#880e4f" dur="4s" repeatCount="indefinite"/>
+      
     </stop>
   </linearGradient>
   <linearGradient id="cardGradL" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -99,36 +99,36 @@
 
 <!-- Ambient orbs -->
 <ellipse cx="120" cy="370" rx="260" ry="260" fill="url(#orb1L)">
-  <animate attributeName="rx" values="260;300;260" dur="5s" repeatCount="indefinite"/>
-  <animate attributeName="ry" values="260;300;260" dur="5s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite"/>
+  
+  
+  
 </ellipse>
 <ellipse cx="900" cy="200" rx="220" ry="220" fill="url(#orb2L)">
-  <animate attributeName="rx" values="220;270;220" dur="6s" repeatCount="indefinite"/>
-  <animate attributeName="ry" values="220;270;220" dur="6s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite"/>
+  
+  
+  
 </ellipse>
-<ellipse cx="1200" cy="580" rx="180" ry="180" fill="url(#orb3L)">
-  <animate attributeName="rx" values="180;220;180" dur="7s" repeatCount="indefinite"/>
-  <animate attributeName="ry" values="180;220;220;180" dur="7s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.5;0.9;0.5" dur="7s" repeatCount="indefinite"/>
+<ellipse cx="1200" cy="592" rx="180" ry="180" fill="url(#orb3L)">
+  
+  
+  
 </ellipse>
 
 <!-- Particles -->
 <g opacity="0.5">
-  <circle cx="80" cy="700" r="2" fill="#e91e63"><animate attributeName="cy" values="700;-20" dur="8s" repeatCount="indefinite" begin="0s"/><animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite" begin="0s"/></circle>
-  <circle cx="320" cy="700" r="2" fill="#7b1fa2"><animate attributeName="cy" values="700;-20" dur="7s" repeatCount="indefinite" begin="2s"/><animate attributeName="opacity" values="0;0.8;0" dur="7s" repeatCount="indefinite" begin="2s"/></circle>
-  <circle cx="600" cy="700" r="2.5" fill="#c2185b"><animate attributeName="cy" values="700;-20" dur="9s" repeatCount="indefinite" begin="3s"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" repeatCount="indefinite" begin="3s"/></circle>
-  <circle cx="900" cy="700" r="2" fill="#e91e63"><animate attributeName="cy" values="700;-20" dur="8.5s" repeatCount="indefinite" begin="4s"/><animate attributeName="opacity" values="0;0.8;0" dur="8.5s" repeatCount="indefinite" begin="4s"/></circle>
-  <circle cx="1180" cy="700" r="2" fill="#7b1fa2"><animate attributeName="cy" values="700;-20" dur="9.5s" repeatCount="indefinite" begin="0.8s"/><animate attributeName="opacity" values="0;0.8;0" dur="9.5s" repeatCount="indefinite" begin="0.8s"/></circle>
+  <circle cx="80" cy="700" r="2" fill="#e91e63"></circle>
+  <circle cx="320" cy="700" r="2" fill="#7b1fa2"></circle>
+  <circle cx="600" cy="700" r="2.5" fill="#c2185b"></circle>
+  <circle cx="900" cy="700" r="2" fill="#e91e63"></circle>
+  <circle cx="1180" cy="700" r="2" fill="#7b1fa2"></circle>
   <!-- Sparkles -->
-  <text x="55" y="120" font-size="14" fill="#e91e63" opacity="0">✦<animate attributeName="opacity" values="0;0.8;0" dur="2.5s" repeatCount="indefinite" begin="0s"/></text>
-  <text x="700" y="50" font-size="12" fill="#7b1fa2" opacity="0">✦<animate attributeName="opacity" values="0;0.8;0" dur="2s" repeatCount="indefinite" begin="0.5s"/></text>
-  <text x="1200" y="150" font-size="14" fill="#c2185b" opacity="0">✦<animate attributeName="opacity" values="0;0.8;0" dur="2.8s" repeatCount="indefinite" begin="0.3s"/></text>
-  <text x="820" y="680" font-size="12" fill="#e91e63" opacity="0">✦<animate attributeName="opacity" values="0;0.8;0" dur="2.2s" repeatCount="indefinite" begin="0.7s"/></text>
+  <text x="55" y="120" font-size="14" fill="#e91e63" opacity="0">✦</text>
+  <text x="700" y="50" font-size="12" fill="#7b1fa2" opacity="0">✦</text>
+  <text x="1200" y="150" font-size="14" fill="#c2185b" opacity="0">✦</text>
+  <text x="820" y="680" font-size="12" fill="#e91e63" opacity="0">✦</text>
   <!-- Hearts -->
-  <text x="1120" y="300" font-size="12" fill="#e91e63" opacity="0">♥<animate attributeName="opacity" values="0;0.6;0" dur="4s" repeatCount="indefinite" begin="0s"/><animateTransform attributeName="transform" type="translate" values="0,0;5,-15;0,0" dur="4s" repeatCount="indefinite" begin="0s"/></text>
-  <text x="60" y="600" font-size="11" fill="#7b1fa2" opacity="0">♥<animate attributeName="opacity" values="0;0.5;0" dur="4.5s" repeatCount="indefinite" begin="1s"/><animateTransform attributeName="transform" type="translate" values="0,0;8,-18;0,0" dur="4.5s" repeatCount="indefinite" begin="1s"/></text>
+  <text x="1120" y="300" font-size="12" fill="#e91e63" opacity="0">♥</text>
+  <text x="60" y="600" font-size="11" fill="#7b1fa2" opacity="0">♥</text>
 </g>
 
 <!-- ========== CHARACTER (light version — real photo) ========== -->
@@ -143,23 +143,18 @@
   <rect x="45" y="460" width="310" height="85" fill="url(#bgGradL)" opacity="0.5"/>
 </g>
 
-<!-- Hologram scan line (initial reveal) --><!-- Hologram scan line (initial reveal) -->
-<rect x="45" y="155" width="310" height="4" fill="#c2185b" opacity="0" filter="url(#softGlowL)">
-  <animate attributeName="y" values="155;525" dur="1.8s" fill="freeze" begin="0.3s"/>
-  <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.05;0.9;1" dur="1.8s" fill="freeze" begin="0.3s"/>
-</rect>
 <!-- Continuous scanner -->
 <g clip-path="url(#scanClipL)">
   <rect x="0" y="-60" width="1280" height="60" fill="url(#scanGradL)">
-    <animate attributeName="y" values="-60;780" dur="3.5s" repeatCount="indefinite" begin="2.5s"/>
+    
   </rect>
 </g>
 <!-- Character ring -->
 <ellipse cx="200" cy="340" rx="158" ry="188" fill="none" stroke="#c2185b" stroke-width="2" opacity="0.4" filter="url(#softGlowL)">
-  <animate attributeName="opacity" values="0.25;0.5;0.25" dur="3s" repeatCount="indefinite"/>
+  
 </ellipse>
 <ellipse cx="200" cy="340" rx="163" ry="193" fill="none" stroke="#7b1fa2" stroke-width="1" opacity="0.25">
-  <animate attributeName="opacity" values="0.15;0.35;0.15" dur="4s" repeatCount="indefinite"/>
+  
 </ellipse>
 
 <!-- ========== TERMINAL (light) ========== -->
@@ -169,44 +164,18 @@
 <circle cx="444" cy="54" r="5" fill="#28c840"/>
 <text x="462" y="59" font-family="'Courier New',monospace" font-size="15" fill="#7b1fa2" dominant-baseline="middle">
   <tspan fill="#c2185b">user@Mann-ck</tspan><tspan fill="#333333">:~$</tspan><tspan fill="#444466"> cat README.md</tspan>
-  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.1;0.15" dur="20s" repeatCount="indefinite"/>
+  
 </text>
 <rect x="758" y="44" width="9" height="20" fill="#c2185b" rx="1">
-  <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  
 </rect>
 
-<!-- ========== NAME (light) ========== -->
-<g filter="url(#pinkGlowL)">
-  <text font-family="Georgia,'Times New Roman',serif" font-size="72" font-weight="700" fill="url(#nameGradL)" dominant-baseline="middle">
-    <tspan x="390" y="150" opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.05;0.1" dur="8s" repeatCount="indefinite"/>M</tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.08;0.13" dur="8s" repeatCount="indefinite"/>a</tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.11;0.16" dur="8s" repeatCount="indefinite"/>n</tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.14;0.19" dur="8s" repeatCount="indefinite"/>n</tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.17;0.22" dur="8s" repeatCount="indefinite"/> </tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.20;0.25" dur="8s" repeatCount="indefinite"/>C</tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.23;0.28" dur="8s" repeatCount="indefinite"/>h</tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.26;0.31" dur="8s" repeatCount="indefinite"/>e</tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.29;0.34" dur="8s" repeatCount="indefinite"/>c</tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.32;0.37" dur="8s" repeatCount="indefinite"/>k</tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.35;0.40" dur="8s" repeatCount="indefinite"/>e</tspan>
-    <tspan opacity="0"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.38;0.43" dur="8s" repeatCount="indefinite"/>r</tspan>
-  </text>
-</g>
+<!-- ========== NAME ========== -->
+<text x="390" y="150" font-family="Georgia,'Times New Roman',serif" font-size="48" font-weight="700" fill="url(#nameGradL)" dominant-baseline="middle">Mann Checker</text>
 
-<!-- ========== ROLE CYCLING (light) ========== -->
-<rect x="390" y="170" width="580" height="46" rx="6" fill="#fff0f8" stroke="#c2185b" stroke-width="0.8" stroke-opacity="0.5"/>
-<text x="400" y="200" font-family="'Courier New',monospace" font-size="18" fill="#c2185b" dominant-baseline="middle" opacity="0">
-  ▶ Computer Science Graduate
-  <animate attributeName="opacity" values="0;1;1;0;0;0" keyTimes="0;0.02;0.28;0.32;0.99;1" dur="9s" repeatCount="indefinite"/>
-</text>
-<text x="400" y="200" font-family="'Courier New',monospace" font-size="18" fill="#7b1fa2" dominant-baseline="middle" opacity="0">
-  ▶ Backend Developer
-  <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.32;0.34;0.36;0.62;0.65;0.99;1" dur="9s" repeatCount="indefinite"/>
-</text>
-<text x="400" y="200" font-family="'Courier New',monospace" font-size="18" fill="#880e4f" dominant-baseline="middle" opacity="0">
-  ▶ AI Developer
-  <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.65;0.67;0.68;0.70;0.96;0.99;1" dur="9s" repeatCount="indefinite"/>
-</text>
+<!-- ========== ROLE ========== -->
+<rect x="390" y="170" width="580" height="46" rx="6" fill="#fff0fa" fill-opacity="0.7" stroke="#7b1fa2" stroke-width="0.8" stroke-opacity="0.5"/>
+<text x="410" y="200" font-family="'Courier New',monospace" font-size="18" fill="#c2185b" dominant-baseline="middle">▶ Backend &amp; AI Developer</text>
 
 <!-- ========== ABOUT ME (light) ========== -->
 <rect x="390" y="228" width="580" height="120" rx="8" fill="url(#cardGradL)" stroke="#7b1fa2" stroke-width="1" stroke-opacity="0.4"/>
@@ -219,51 +188,53 @@
 <!-- ========== TAGLINE (light) ========== -->
 <rect x="390" y="362" width="580" height="58" rx="8" fill="#fff5fe" stroke="#c2185b" stroke-width="1.2" stroke-opacity="0.6"/>
 <text x="408" y="384" font-family="'Courier New',monospace" font-size="11" fill="#7b1fa2">"</text>
-<text x="420" y="384" font-family="'Courier New',monospace" font-size="12" fill="#4a1060" opacity="0">
+<text x="420" y="384" font-family="'Courier New',monospace" font-size="12" fill="#4a1060" opacity="1">
   Building, learning, and turning ideas into code.
-  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.4;0.5" dur="12s" repeatCount="indefinite"/>
+  
 </text>
-<text x="408" y="408" font-family="'Courier New',monospace" font-size="11" fill="#7b1fa2" opacity="0">
-  "<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;0.55" dur="12s" repeatCount="indefinite"/>
+<text x="408" y="408" font-family="'Courier New',monospace" font-size="11" fill="#7b1fa2" opacity="1">
+  "
 </text>
 <rect x="726" y="373" width="7" height="16" fill="#c2185b" rx="1" opacity="0">
-  <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0" keyTimes="0;0.4;0.45;0.5;0.55;0.6;0.65;0.7;1" dur="12s" repeatCount="indefinite"/>
+  
 </rect>
 
-<!-- ========== TECH PILLS (light) ========== -->
+<!-- ========== TECH STACK ========== -->
 <text x="390" y="444" font-family="'Courier New',monospace" font-size="11" fill="#7b1fa2" opacity="0.8">// Tech Stack</text>
-<g font-family="'Courier New',monospace" font-size="11" font-weight="600">
-  <rect x="390" y="452" width="58" height="26" rx="13" fill="url(#pillGrad1L)" stroke="#c2185b" stroke-width="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.55;0.62" dur="10s" repeatCount="indefinite"/></rect>
-  <text x="419" y="469" fill="#c2185b" text-anchor="middle" dominant-baseline="middle" opacity="0">Java<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.55;0.62" dur="10s" repeatCount="indefinite"/></text>
-
-  <rect x="456" y="452" width="92" height="26" rx="13" fill="url(#pillGrad1L)" stroke="#7b1fa2" stroke-width="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.58;0.65" dur="10s" repeatCount="indefinite"/></rect>
-  <text x="502" y="469" fill="#7b1fa2" text-anchor="middle" dominant-baseline="middle" opacity="0">Spring Boot<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.58;0.65" dur="10s" repeatCount="indefinite"/></text>
-
-  <rect x="556" y="452" width="80" height="26" rx="13" fill="url(#pillGrad1L)" stroke="#880e4f" stroke-width="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.61;0.68" dur="10s" repeatCount="indefinite"/></rect>
-  <text x="596" y="469" fill="#880e4f" text-anchor="middle" dominant-baseline="middle" opacity="0">Spring AI<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.61;0.68" dur="10s" repeatCount="indefinite"/></text>
-
-  <rect x="644" y="452" width="68" height="26" rx="13" fill="url(#pillGrad1L)" stroke="#c2185b" stroke-width="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.64;0.71" dur="10s" repeatCount="indefinite"/></rect>
-  <text x="678" y="469" fill="#c2185b" text-anchor="middle" dominant-baseline="middle" opacity="0">Python<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.64;0.71" dur="10s" repeatCount="indefinite"/></text>
-
-  <rect x="720" y="452" width="52" height="26" rx="13" fill="url(#pillGrad1L)" stroke="#7b1fa2" stroke-width="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.67;0.74" dur="10s" repeatCount="indefinite"/></rect>
-  <text x="746" y="469" fill="#7b1fa2" text-anchor="middle" dominant-baseline="middle" opacity="0">C++<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.67;0.74" dur="10s" repeatCount="indefinite"/></text>
-
-  <rect x="390" y="486" width="90" height="26" rx="13" fill="url(#pillGrad1L)" stroke="#880e4f" stroke-width="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.70;0.77" dur="10s" repeatCount="indefinite"/></rect>
-  <text x="435" y="503" fill="#880e4f" text-anchor="middle" dominant-baseline="middle" opacity="0">JavaScript<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.70;0.77" dur="10s" repeatCount="indefinite"/></text>
-
-  <rect x="488" y="486" width="60" height="26" rx="13" fill="url(#pillGrad1L)" stroke="#c2185b" stroke-width="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.73;0.80" dur="10s" repeatCount="indefinite"/></rect>
-  <text x="518" y="503" fill="#c2185b" text-anchor="middle" dominant-baseline="middle" opacity="0">React<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.73;0.80" dur="10s" repeatCount="indefinite"/></text>
-
-  <rect x="556" y="486" width="48" height="26" rx="13" fill="url(#pillGrad1L)" stroke="#7b1fa2" stroke-width="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.76;0.83" dur="10s" repeatCount="indefinite"/></rect>
-  <text x="580" y="503" fill="#7b1fa2" text-anchor="middle" dominant-baseline="middle" opacity="0">SQL<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.76;0.83" dur="10s" repeatCount="indefinite"/></text>
-
-  <rect x="612" y="486" width="60" height="26" rx="13" fill="url(#pillGrad1L)" stroke="#880e4f" stroke-width="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.79;0.86" dur="10s" repeatCount="indefinite"/></rect>
-  <text x="642" y="503" fill="#880e4f" text-anchor="middle" dominant-baseline="middle" opacity="0">MySQL<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.79;0.86" dur="10s" repeatCount="indefinite"/></text>
-
-  <rect x="680" y="486" width="58" height="26" rx="13" fill="url(#pillGrad1L)" stroke="#c2185b" stroke-width="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.82;0.89" dur="10s" repeatCount="indefinite"/></rect>
-  <text x="709" y="503" fill="#c2185b" text-anchor="middle" dominant-baseline="middle" opacity="0">AI/ML<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.82;0.89" dur="10s" repeatCount="indefinite"/></text>
+<g font-family="'Courier New',monospace" font-size="10" font-weight="600">
+<rect x="390" y="452" width="72" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#c2185b" stroke-width="1"/>
+<text x="426.0" y="467" fill="#c2185b" text-anchor="middle" dominant-baseline="middle">Python</text>
+<rect x="470" y="452" width="90" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#7b1fa2" stroke-width="1"/>
+<text x="515.0" y="467" fill="#7b1fa2" text-anchor="middle" dominant-baseline="middle">JavaScript</text>
+<rect x="568" y="452" width="42" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#880e4f" stroke-width="1"/>
+<text x="589.0" y="467" fill="#880e4f" text-anchor="middle" dominant-baseline="middle">C</text>
+<rect x="618" y="452" width="50" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#c2185b" stroke-width="1"/>
+<text x="643.0" y="467" fill="#c2185b" text-anchor="middle" dominant-baseline="middle">SQL</text>
+<rect x="676" y="452" width="68" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#7b1fa2" stroke-width="1"/>
+<text x="710.0" y="467" fill="#7b1fa2" text-anchor="middle" dominant-baseline="middle">Pandas</text>
+<rect x="752" y="452" width="65" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#880e4f" stroke-width="1"/>
+<text x="784.5" y="467" fill="#880e4f" text-anchor="middle" dominant-baseline="middle">NumPy</text>
+<rect x="390" y="482" width="82" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#7b1fa2" stroke-width="1"/>
+<text x="431.0" y="497" fill="#7b1fa2" text-anchor="middle" dominant-baseline="middle">Matplotlib</text>
+<rect x="480" y="482" width="92" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#880e4f" stroke-width="1"/>
+<text x="526.0" y="497" fill="#880e4f" text-anchor="middle" dominant-baseline="middle">Scikit-learn</text>
+<rect x="580" y="482" width="55" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#c2185b" stroke-width="1"/>
+<text x="607.5" y="497" fill="#c2185b" text-anchor="middle" dominant-baseline="middle">Flask</text>
+<rect x="643" y="482" width="70" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#7b1fa2" stroke-width="1"/>
+<text x="678.0" y="497" fill="#7b1fa2" text-anchor="middle" dominant-baseline="middle">FastAPI</text>
+<rect x="721" y="482" width="58" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#880e4f" stroke-width="1"/>
+<text x="750.0" y="497" fill="#880e4f" text-anchor="middle" dominant-baseline="middle">React</text>
+<rect x="390" y="512" width="58" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#880e4f" stroke-width="1"/>
+<text x="419.0" y="527" fill="#880e4f" text-anchor="middle" dominant-baseline="middle">AI/ML</text>
+<rect x="456" y="512" width="48" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#c2185b" stroke-width="1"/>
+<text x="480.0" y="527" fill="#c2185b" text-anchor="middle" dominant-baseline="middle">NLP</text>
+<rect x="512" y="512" width="50" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#7b1fa2" stroke-width="1"/>
+<text x="537.0" y="527" fill="#7b1fa2" text-anchor="middle" dominant-baseline="middle">LLMs</text>
+<rect x="570" y="512" width="62" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#880e4f" stroke-width="1"/>
+<text x="601.0" y="527" fill="#880e4f" text-anchor="middle" dominant-baseline="middle">Gen AI</text>
+<rect x="640" y="512" width="82" height="24" rx="12" fill="url(#pillGrad1L)" stroke="#c2185b" stroke-width="1"/>
+<text x="681.0" y="527" fill="#c2185b" text-anchor="middle" dominant-baseline="middle">Agentic AI</text>
 </g>
-
 <!-- ========== CODE EDITOR (light) ========== -->
 <rect x="990" y="28" width="268" height="310" rx="10" fill="#f8f0ff" stroke="#7b1fa2" stroke-width="1.2" stroke-opacity="0.6"/>
 <rect x="990" y="28" width="268" height="28" rx="10" fill="#ede0ff"/>
@@ -271,7 +242,7 @@
 <circle cx="1006" cy="42" r="4" fill="#ff5f57"/>
 <circle cx="1020" cy="42" r="4" fill="#febc2e"/>
 <circle cx="1034" cy="42" r="4" fill="#28c840"/>
-<text x="1130" y="46" font-family="'Courier New',monospace" font-size="9" fill="#7b1fa2" text-anchor="middle">Developer.java</text>
+<text x="1130" y="46" font-family="'Courier New',monospace" font-size="9" fill="#7b1fa2" text-anchor="middle">Developer.py</text>
 <g font-family="'Courier New',monospace" font-size="10" fill="#c8b0e0">
   <text x="1002" y="74">1</text><text x="1002" y="90">2</text><text x="1002" y="106">3</text>
   <text x="1002" y="122">4</text><text x="1002" y="138">5</text><text x="1002" y="154">6</text>
@@ -280,51 +251,51 @@
   <text x="998" y="266">13</text><text x="998" y="282">14</text><text x="998" y="298">15</text>
 </g>
 <g font-family="'Courier New',monospace" font-size="10.5">
-  <text x="1015" y="74" fill="#7b1fa2" opacity="0">@SpringBootApplication<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.05;0.12" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="90" fill="#c2185b" opacity="0">public class <tspan fill="#333">Developer</tspan> <tspan fill="#555">{</tspan><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.12;0.18" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="106" fill="#7b1fa2" opacity="0">  <tspan fill="#c2185b">@Autowired</tspan><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.18;0.24" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="122" fill="#1565c0" opacity="0">  Brain brain;<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.24;0.30" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="154" fill="#7b1fa2" opacity="0">  <tspan fill="#c2185b">@GetMapping</tspan><tspan fill="#555">(</tspan><tspan fill="#2e7d32">"/build"</tspan><tspan fill="#555">)</tspan><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.34;0.40" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="170" fill="#1565c0" opacity="0">  String build() {<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.40;0.46" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="186" fill="#555" opacity="0">    <tspan fill="#c2185b">return</tspan> brain<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.46;0.52" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="202" fill="#2e7d32" opacity="0">      .think()<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.52;0.58" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="218" fill="#2e7d32" opacity="0">      .code()<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.58;0.64" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="234" fill="#2e7d32" opacity="0">      .ship();<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.64;0.70" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="250" fill="#555" opacity="0">  }<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.70;0.74" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="282" fill="#7b1fa2" opacity="0">  // Keep building! 🚀<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.77;0.83" dur="15s" repeatCount="indefinite"/></text>
-  <text x="1015" y="298" fill="#555" opacity="0">}<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.83;0.87" dur="15s" repeatCount="indefinite"/></text>
-  <rect x="1025" y="304" width="7" height="13" fill="#c2185b" rx="1"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  <text x="1015" y="74" fill="#7b1fa2" opacity="1">from fastapi import FastAPI</text>
+  <text x="1015" y="90" fill="#c2185b" opacity="1">class <tspan fill="#333">Developer</tspan> <tspan fill="#555">{</tspan></text>
+  <text x="1015" y="106" fill="#7b1fa2" opacity="1"></text>
+  <text x="1015" y="122" fill="#1565c0" opacity="1"></text>
+  <text x="1015" y="154" fill="#7b1fa2" opacity="1">@app.get("/build")</text>
+  <text x="1015" y="170" fill="#1565c0" opacity="1">def build():</text>
+  <text x="1015" y="186" fill="#555" opacity="1">    return "Built with Python + AI"</text>
+  <text x="1015" y="202" fill="#2e7d32" opacity="1"></text>
+  <text x="1015" y="218" fill="#2e7d32" opacity="1"></text>
+  <text x="1015" y="234" fill="#2e7d32" opacity="1"></text>
+  <text x="1015" y="250" fill="#555" opacity="1"></text>
+  <text x="1015" y="282" fill="#7b1fa2" opacity="1">  // Keep building!</text>
+  <text x="1015" y="298" fill="#555" opacity="1">}</text>
+  <rect x="1025" y="304" width="7" height="13" fill="#c2185b" rx="1"></rect>
 </g>
 
 <!-- ========== NEON SIGN (light — warm pink, visible on white) ========== -->
 <rect x="990" y="352" width="268" height="58" rx="12" fill="#fff0fa" stroke="#c2185b" stroke-width="2">
-  <animate attributeName="stroke-opacity" values="0.3;1;0.7;1;0.4;1;0.9;1" keyTimes="0;0.1;0.15;0.2;0.25;0.3;0.35;0.4" dur="6s" repeatCount="indefinite"/>
+  
 </rect>
 <text x="1124" y="386" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="#c2185b" text-anchor="middle" filter="url(#neonGlowL)" dominant-baseline="middle" letter-spacing="2">
   KEEP CODING • KEEP GROWING
-  <animate attributeName="opacity" values="0;0;0.4;1;0.7;1;0.5;1;0.8;1" keyTimes="0;0.05;0.1;0.15;0.20;0.25;0.30;0.35;0.38;0.40" dur="6s" repeatCount="indefinite"/>
+  
 </text>
 
 <!-- ========== STATS BAR (light) ========== -->
-<rect x="390" y="528" width="855" height="80" rx="8" fill="url(#cardGradL)" stroke="#7b1fa2" stroke-width="1" stroke-opacity="0.3"/>
-<text x="408" y="548" font-family="'Courier New',monospace" font-size="11" fill="#7b1fa2">// Profile Highlights</text>
+<rect x="390" y="540" width="855" height="80" rx="8" fill="url(#cardGradL)" stroke="#7b1fa2" stroke-width="1" stroke-opacity="0.3"/>
+<text x="408" y="560" font-family="'Courier New',monospace" font-size="11" fill="#7b1fa2">// Profile Highlights</text>
 <g font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#4a1060">
-  <text x="410" y="568">Backend &amp; API Dev</text>
-  <rect x="520" y="558" width="180" height="8" rx="4" fill="#f3e8ff"/>
-  <rect x="520" y="558" width="0" height="8" rx="4" fill="#c2185b"><animate attributeName="width" values="0;160" dur="2s" fill="freeze" begin="1s"/></rect>
-  <text x="710" y="568" fill="#c2185b">●●●●●</text>
-  <text x="750" y="568">AI / ML / NLP</text>
-  <rect x="838" y="558" width="180" height="8" rx="4" fill="#f3e8ff"/>
-  <rect x="838" y="558" width="0" height="8" rx="4" fill="#7b1fa2"><animate attributeName="width" values="0;145" dur="2.2s" fill="freeze" begin="1.2s"/></rect>
-  <text x="1030" y="568" fill="#7b1fa2">●●●●○</text>
-  <text x="410" y="590">Python / FastAPI</text>
-  <rect x="520" y="580" width="180" height="8" rx="4" fill="#f3e8ff"/>
-  <rect x="520" y="580" width="0" height="8" rx="4" fill="#880e4f"><animate attributeName="width" values="0;170" dur="2.4s" fill="freeze" begin="1.4s"/></rect>
-  <text x="710" y="590" fill="#880e4f">●●●●●</text>
-  <text x="750" y="590">Gen AI / LLMs</text>
-  <rect x="838" y="580" width="180" height="8" rx="4" fill="#f3e8ff"/>
-  <rect x="838" y="580" width="0" height="8" rx="4" fill="#c2185b"><animate attributeName="width" values="0;130" dur="2.6s" fill="freeze" begin="1.6s"/></rect>
-  <text x="1030" y="590" fill="#c2185b">●●●●○</text>
+  <text x="410" y="592">Backend &amp; API Dev</text>
+  <rect x="520" y="570" width="180" height="8" rx="4" fill="#f3e8ff"/>
+  <rect x="520" y="570" width="0" height="8" rx="4" fill="#c2185b"></rect>
+  <text x="710" y="592" fill="#c2185b">●●●●●</text>
+  <text x="750" y="592">AI / ML / NLP</text>
+  <rect x="838" y="570" width="180" height="8" rx="4" fill="#f3e8ff"/>
+  <rect x="838" y="570" width="0" height="8" rx="4" fill="#7b1fa2"></rect>
+  <text x="1030" y="592" fill="#7b1fa2">●●●●○</text>
+  <text x="410" y="602">Python / FastAPI</text>
+  <rect x="520" y="592" width="180" height="8" rx="4" fill="#f3e8ff"/>
+  <rect x="520" y="592" width="0" height="8" rx="4" fill="#880e4f"></rect>
+  <text x="710" y="602" fill="#880e4f">●●●●●</text>
+  <text x="750" y="602">Gen AI / LLMs</text>
+  <rect x="838" y="592" width="180" height="8" rx="4" fill="#f3e8ff"/>
+  <rect x="838" y="592" width="0" height="8" rx="4" fill="#c2185b"></rect>
+  <text x="1030" y="602" fill="#c2185b">●●●●○</text>
 </g>
 
 <!-- Footer -->
@@ -336,8 +307,9 @@
 <rect x="0" y="725" width="1280" height="15" fill="url(#nameGradL)" opacity="0.3"/>
 <!-- Border -->
 <rect x="1" y="1" width="1278" height="738" rx="17" fill="none" stroke="#c2185b" stroke-width="2" stroke-opacity="0.3">
-  <animate attributeName="stroke-opacity" values="0.3;0.5;0.3" dur="4s" repeatCount="indefinite"/>
+  
 </rect>
 
+<rect x="0" y="0" width="1280" height="3" fill="#c2185b" opacity="0.55" filter="url(#softGlowL)"><animate attributeName="y" values="0;737;0" dur="7s" repeatCount="indefinite"/></rect>
 </g>
 </svg>
