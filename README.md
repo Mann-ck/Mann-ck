@@ -1,13 +1,13 @@
-<div align="center">
+﻿<div align="center">
 
 <!-- ============================================================ -->
 <!--                     ANIMATED BANNER                         -->
 <!-- ============================================================ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="banner-finalstate-test.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light-finalstate-test.svg?v=1">
-  <img alt="Mann Checker — Backend &amp; AI Developer" src="banner-finalstate-test.svg?v=1" width="100%"/>
+  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+  <img alt="Mann Checker â€” Backend &amp; AI Developer" src="banner.svg?v=1" width="100%"/>
 </picture>
 
 <br/>
@@ -16,7 +16,7 @@
 <!--                     SWINGING ID BADGE                       -->
 <!-- ============================================================ -->
 
-<img src="lanyard.svg?v=1" alt="Mann Checker — Developer ID Badge" width="260"/>
+<img src="lanyard.svg?v=1" alt="Mann Checker â€” Developer ID Badge" width="260"/>
 
 <br/><br/>
 
@@ -40,19 +40,19 @@
 
 <div align="center">
 
-## 👨‍💻 About Me
+## ðŸ‘¨â€ðŸ’» About Me
 
 </div>
 
 > I'm a Computer Science graduate passionate about backend development and AI. I enjoy building practical applications, learning new technologies, and turning ideas into working software.
 
-- 🎓 **CS Graduate** — focused on backend systems and AI applications
-- ⚙️ **Backend Developer** — building REST APIs with FastAPI and Spring Boot
-- 🤖 **AI Developer** — working with NLP, LLMs, and Gen AI
-- 🐍 **Languages** — Python, Java, JavaScript, TypeScript, C++
-- 🗄️ **Databases** — MySQL, SQL
-- 🌱 **Always learning** — new frameworks, AI tools, and best practices
-- 💡 **Tagline** — *"Building, learning, and turning ideas into code."*
+- ðŸŽ“ **CS Graduate** â€” focused on backend systems and AI applications
+- âš™ï¸ **Backend Developer** â€” building REST APIs with FastAPI and Spring Boot
+- ðŸ¤– **AI Developer** â€” working with NLP, LLMs, and Gen AI
+- ðŸ **Languages** â€” Python, Java, JavaScript, TypeScript, C++
+- ðŸ—„ï¸ **Databases** â€” MySQL, SQL
+- ðŸŒ± **Always learning** â€” new frameworks, AI tools, and best practices
+- ðŸ’¡ **Tagline** â€” *"Building, learning, and turning ideas into code."*
 
 ---
 
@@ -62,7 +62,7 @@
 
 <div align="center">
 
-## 🛠️ Skills & Technologies
+## ðŸ› ï¸ Skills & Technologies
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-1a0030?style=for-the-badge&logo=python&logoColor=ff6ec7)
@@ -99,7 +99,7 @@
 
 <div align="center">
 
-## 🚀 Projects
+## ðŸš€ Projects
 
 </div>
 
@@ -119,21 +119,21 @@
 
 <div align="center">
 
-## 📊 Profile Stats
+## ðŸ“Š Profile Stats
 
-<img src="stats.svg?v=1" alt="Mann Checker — Profile Stats" width="480"/>
-
-<br/><br/>
-
-## 🧠 Technologies
-
-<img src="langs.svg?v=1" alt="Mann Checker — Technologies" width="480"/>
+<img src="stats.svg?v=1" alt="Mann Checker â€” Profile Stats" width="480"/>
 
 <br/><br/>
 
-## 🏆 Developer Milestones
+## ðŸ§  Technologies
 
-<img src="trophies.svg?v=1" alt="Mann Checker — Developer Milestones" width="480"/>
+<img src="langs.svg?v=1" alt="Mann Checker â€” Technologies" width="480"/>
+
+<br/><br/>
+
+## ðŸ† Developer Milestones
+
+<img src="trophies.svg?v=1" alt="Mann Checker â€” Developer Milestones" width="480"/>
 
 </div>
 
@@ -145,7 +145,7 @@
 
 <div align="center">
 
-## 🐍 Contribution Activity
+## ðŸ Contribution Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
@@ -168,7 +168,7 @@
 
 <div align="center">
 
-## 🤝 Connect with Me
+## ðŸ¤ Connect with Me
 
 [![GitHub](https://img.shields.io/badge/GitHub-Mann--ck-1a0030?style=for-the-badge&logo=github&logoColor=ff6ec7)](https://github.com/Mann-ck)
 &nbsp;
@@ -184,3 +184,4 @@
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=80&section=footer)
 
 </div>
+
